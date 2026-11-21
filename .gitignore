@@ -1,0 +1,32 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+**/.env
+**/.env.*
+!**/.env.example
+
+# Local paper-trading account
+server/portfolio.json
+
+# Logs and generated files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist/
+build/
+coverage/
+.pytest_cache/
+
+# Installed packages and Python environments
+node_modules/
+venv/
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local machine/editor files
+.DS_Store
+.idea/
+.vscode/
